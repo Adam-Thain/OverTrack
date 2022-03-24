@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:local="clr-namespace:OverTrack"
+             mc:Ignorable="d"
+             x:Class="OverTrack.Views.HeroPage"
+             xmlns:vm="clr-namespace:OverTrack.ViewModels"
+             BackgroundColor="#2E4261">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout x:Name="PageLayout" Padding="6,6,6,3">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <StackLayout Grid.Column="0" Grid.Row="0" Spacing="0">
+                        <Label x:Name="HeroLabel" Text="{Binding HeroName}" TextColor="White" FontSize="Medium"/>
+                        <Label Text="Role:" TextColor="#0178FA" FontSize="Small"/>
+                        <Grid RowSpacing="0">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="auto"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="auto"/>
+                                <ColumnDefinition Width="auto"/>
+                            </Grid.ColumnDefinitions>
+                            <Label Grid.Column="0" Grid.Row="0" x:Name="RoleLabel" Text="{Binding Role}" TextColor="White" FontSize="Small"/>
+                            <Image Grid.Column="1" Grid.Row="0" x:Name="RoleImage" Source="{Binding RoleImage}" WidthRequest="20" HeightRequest="20" Aspect="AspectFill"/>
+                        </Grid>
+                        <Grid RowSpacing="0">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="42"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Label Text="Health" Grid.Column="0" Grid.Row="0" TextColor="#FF3B30" FontSize="Small"/>
+                            <Label Text="Armor" Grid.Column="0" Grid.Row="1"  TextColor="#FB9401" FontSize="Small"/>
+                            <Label Text="Shield" Grid.Column="0" Grid.Row="2"  TextColor="#007BFF" FontSize="Small"/>
+                            <Label Text="Total" Grid.Column="0" Grid.Row="3"  TextColor="White" FontSize="Small"/>
+                            <Label x:Name="HealthTotal" Text="{Binding Health}" Grid.Column="1" Grid.Row="0"  TextColor="White" FontSize="Small"/>
+                            <Label x:Name="ArmorTotal" Text="{Binding Armor}" Grid.Column="1" Grid.Row="1"  TextColor="White" FontSize="Small"/>
+                            <Label x:Name="ShieldTotal" Text="{Binding Shields}" Grid.Column="1" Grid.Row="2"  TextColor="White" FontSize="Small"/>
+                            <Label x:Name="OverallTotal" Text="{Binding Total}" Grid.Column="1" Grid.Row="3"  TextColor="White" FontSize="Small"/>
+                        </Grid>
+                    </StackLayout>
+                    <Image Source="{Binding HeroImage}" Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="0"/>
+                </Grid>
+                <StackLayout BindableLayout.ItemsSource="{Binding Abilities}" Orientation="Vertical">
+                    <BindableLayout.ItemTemplate>
+                        <DataTemplate>
+                            <Frame Padding="10" CornerRadius="10" HeightRequest="100" BackgroundColor="#293C5D" HasShadow="False">
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="auto"/>
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="auto"/>
+                                        <ColumnDefinition Width="auto"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Image Grid.Column="0" Grid.Row="0" x:Name="AbilityImage" Source="{Binding Icon}" WidthRequest="60" HeightRequest="60"/>
+                                    <Label Grid.Column="1" Grid.Row="0" x:Name="AbilityName" Text="{Binding Name}" TextColor="White" FontSize="Medium" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+                                </Grid>
+                            </Frame>
+                        </DataTemplate>
+                    </BindableLayout.ItemTemplate>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage> 

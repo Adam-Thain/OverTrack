@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+            xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+            xmlns:local="clr-namespace:OverTrack"
+            mc:Ignorable="d"
+            x:Class="OverTrack.Views.HubPage"
+            xmlns:vm="clr-namespace:OverTrack.ViewModels"
+            BarBackgroundColor="Red">
+    <ContentPage x:Name="HeroTipsPage" Title="Hero Tips" BackgroundImageSource="{local:ImageResource OverTrack.Resources.Images.Backgrounds.OWOptionsMenuBackground.png}">
+        <ContentPage.BindingContext>
+            <vm:HeroTipsViewModel/>
+        </ContentPage.BindingContext>
+        <ContentPage.Content>
+            <StackLayout>
+                <Grid x:Name="FilterButtonGrid" Padding="6,6,6,3">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Image Grid.Column="0" Grid.Row="0" BackgroundColor="Transparent" Source="{local:ImageResource OverTrack.Resources.Images.Icons.OffenseIcon.png}" x:Name="DamageButton">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="DamageButtonTapped"/>
+                        </Image.GestureRecognizers>
+                    </Image>
+
+                    <Image Grid.Column="1" Grid.Row="0" BackgroundColor="Transparent" Source="{local:ImageResource OverTrack.Resources.Images.Icons.DefenceIcon.png}" x:Name="DefenceButton">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="DefenceButtonTapped"/>
+                        </Image.GestureRecognizers>
+                    </Image>
+
+                    <Image Grid.Column="2" Grid.Row="0" BackgroundColor="Transparent" Source="{local:ImageResource OverTrack.Resources.Images.Icons.TankIcon.png}" x:Name="TankButton">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TankButtonTapped"/>
+                        </Image.GestureRecognizers>
+                    </Image>
+
+                    <Image Grid.Column="3" Grid.Row="0" BackgroundColor="Transparent" Source="{local:ImageResource OverTrack.Resources.Images.Icons.SupportIcon.png}" x:Name="SupportButton">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="SupportButtonTapped"/>
+                        </Image.GestureRecognizers>
+                    </Image>
+
+                </Grid>
+                <ScrollView VerticalScrollBarVisibility="Never">
+                    <StackLayout Padding="6,3,6,6">
+                        <CollectionView ItemsSource="{Binding HeroButtons}" SelectionMode="None" ItemSizingStrategy="MeasureAllItems">
+                            <CollectionView.ItemsLayout>
+                                <GridItemsLayout Orientation="Vertical" Span="3"/>
+                            </CollectionView.ItemsLayout>
+                            <CollectionView.ItemTemplate>
+                                <DataTemplate>
+                                    <Grid Padding="3">
+                                        <Frame Padding="0"
+                                           BackgroundColor="Transparent"
+                                           BorderColor="Cyan"
+                                           CornerRadius="7"
+                                           HasShadow="False">
+                                            <Frame.GestureRecognizers>
+                                                <TapGestureRecognizer Command="{Binding BindingContext.NavigateCommand, Source={x:Reference HeroTipsPage}}" CommandParameter="{Binding Name}" NumberOfTapsRequired="1"/>
+                                            </Frame.GestureRecognizers>
+                                            <Frame Margin="0"
+                                               Padding="0"
+                                               BackgroundColor="Transparent"
+                                               CornerRadius="5"
+                                               IsClippedToBounds="True"
+                                               HasShadow="False">
+                                                <Grid HeightRequest="115" IsClippedToBounds="True">
+                                                    <Image Aspect="AspectFill" Source="{Binding Portrait}"/>
+                                                    <Frame Padding="0"
+                                                      BackgroundColor="Transparent"
+                                                      BorderColor="Cyan"
+                                                      CornerRadius="7"
+                                                      HasShadow="False"/>
+                                                </Grid>
+                                            </Frame>
+                                        </Frame>
+                                    </Grid>
+                                </DataTemplate>
+                            </CollectionView.ItemTemplate>
+                        </CollectionView>
+                    </StackLayout>
+                </ScrollView>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+    <ContentPage x:Name="FeedPage" Title="Feed" BackgroundImageSource="{local:ImageResource OverTrack.Resources.Images.Backgrounds.OWOptionsMenuBackground.png}">
+        <ContentPage.Content>
+            <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+                <Label Text="Tabbed Page2"/>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+    <ContentPage x:Name="AccountPage"  Title="Account" BackgroundImageSource="{local:ImageResource OverTrack.Resources.Images.Backgrounds.OWOptionsMenuBackground.png}">
+        <ContentPage.Content>
+            <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+                <Label Text="Tabbed Page3"/>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+</TabbedPage>
