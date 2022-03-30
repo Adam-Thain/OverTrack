@@ -108,9 +108,9 @@
     <None Remove="Resources\Images\AbilityIcons\Molten CoreIcon.png" />
     <None Remove="Resources\Images\AbilityIcons\Nano BoostIcon.png" />
     <None Remove="Resources\Images\AbilityIcons\OpportunistIcon.png" />
+    <None Remove="Resources\Images\AbilityIcons\ORB OF DESTRUCTIONIcon.png" />
     <None Remove="Resources\Images\AbilityIcons\Orb Of DiscordIcon.png" />
     <None Remove="Resources\Images\AbilityIcons\Orb Of HarmonyIcon.png" />
-    <None Remove="Resources\Images\AbilityIcons\Orbs Of DestructionIcon.png" />
     <None Remove="Resources\Images\AbilityIcons\OverloadIcon.png" />
     <None Remove="Resources\Images\AbilityIcons\Particle BarrierIcon.png" />
     <None Remove="Resources\Images\AbilityIcons\Particle CannonIcon.png" />
@@ -499,7 +499,7 @@
     <EmbeddedResource Include="Resources\Images\AbilityIcons\OPPORTUNISTIcon.png" />
     <EmbeddedResource Include="Resources\Images\AbilityIcons\ORB OF DISCORDIcon.png" />
     <EmbeddedResource Include="Resources\Images\AbilityIcons\ORB OF HARMONYIcon.png" />
-    <EmbeddedResource Include="Resources\Images\AbilityIcons\ORBS OF DESTRUCTIONIcon.png" />
+    <EmbeddedResource Include="Resources\Images\AbilityIcons\ORB OF DESTRUCTIONIcon.png" />
     <EmbeddedResource Include="Resources\Images\AbilityIcons\OVERLOADIcon.png" />
     <EmbeddedResource Include="Resources\Images\AbilityIcons\PARTICLE BARRIERIcon.png" />
     <EmbeddedResource Include="Resources\Images\AbilityIcons\PARTICLE CANNONIcon.png" />
