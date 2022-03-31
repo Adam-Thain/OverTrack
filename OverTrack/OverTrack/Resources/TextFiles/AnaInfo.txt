@@ -1,9 +1,9 @@
-Role,Support
-Health,200
-Armor,0
-Shields,0
-Total,200
-BIOTIC RIFLE,BIOTIC RIFLE
-SLEEP DART,SLEEP DART
-BIOTIC GRENADE,BIOTIC GRENADE
-NANO BOOST,NANO BOOST
+Role|Support
+Health|200
+Armor|0
+Shields|0
+Total|200
+BIOTIC RIFLE|BIOTIC RIFLE|Ana's rifle shoots darts that can restore health to her allies or deal ongoing damage to her enemies. She can use the rifle's scope to zoom in on targets and make highly accurate shots.
+SLEEP DART|SLEEP DART|Ana fires a dart from her sidearm, rendering an enemy unconscious (though any damage will rouse them).
+BIOTIC GRENADE|BIOTIC GRENADE|Ana tosses a biotic bomb that deals damage to enemies and heals allies in a small area of effect. Affected allies briefly receive increased healing from all sources, while enemies caught in the blast cannot be healed for a few moments.
+NANO BOOST|NANO BOOST|After Ana hits one of her allies with a combat boost, they deal more damage, take less damage from enemies' attacks.

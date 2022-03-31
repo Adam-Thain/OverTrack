@@ -1,10 +1,10 @@
-Role,Damage
-Health,225
-Armor,0
-Shields,0
-Total,225
-PEACEKEEPER (SINGLE SHOT),PEACEKEEPER
-PEACEKEEPER (FAN THE HAMMER),PEACEKEEPER
-COMBAT ROLL,COMBAT ROLL
-FLASHBANG,FLASHBANG
-DEADEYE,DEADEYE
+Role|Damage
+Health|225
+Armor|0
+Shields|0
+Total|225
+PEACEKEEPER (SINGLE SHOT)|PEACEKEEPER|Cassidy fires off a round from his trusty six-shooter.
+PEACEKEEPER (FAN THE HAMMER)|PEACEKEEPER|Cassidy can fan the Peacekeeper's hammer to swiftly unload the entire cylinder.
+COMBAT ROLL|COMBAT ROLL|Cassidy dives in the direction he's moving, effortlessly reloading his Peacekeeper in the process.
+FLASHBANG|FLASHBANG|Cassidy heaves a blinding grenade that explodes shortly after it leaves his hand. The blast staggers enemies in a small radius.
+DEADEYE|DEADEYE|Focus. Mark. Draw. Cassidy takes a few precious moments to aim; when he's ready to fire, he shoots every enemy in his line of sight. The weaker his targets are, the faster he'll line up a killshot.

@@ -1,11 +1,11 @@
-Role,Damage
-Health,200
-Armor,100
-Shields,0
-Total,300
-CONFIGURATION: RECON,CONFIGURATION
-CONFIGURATION: SENTRY,CONFIGURATION
-RECONFIGURE,RECONFIGURE
-SELF-REPAIR,SELF-REPAIR
-IRONCLAD,IRONCLAD
-CONFIGURATION: TANK,CONFIGURATION TANK,
+Role|Damage
+Health|200
+Armor|100
+Shields|0
+Total|300
+CONFIGURATION: RECON|CONFIGURATION|In Recon mode, Bastion is fully mobile, outfitted with a submachine gun that fires steady bursts of bullets at medium range.
+CONFIGURATION: SENTRY|CONFIGURATION|In Sentry mode, Bastion is a stationary powerhouse equipped with a gatling gun capable of unleashing a hail of bullets. The gun's aim can be "walked" across multiple targets, dealing devastating damage at short to medium range.
+RECONFIGURE|RECONFIGURE|Bastion transforms between its two primary combat modes to adapt to battlefield conditions.
+SELF-REPAIR|SELF-REPAIR|Bastion restores its health; it cannot fire weapons while the repair process is in effect.
+IRONCLAD|IRONCLAD|Reduces damage taken while transformed.
+CONFIGURATION: TANK|CONFIGURATION TANK|In Tank mode, Bastion extends wheeled treads and a powerful long-range cannon. The cannon's explosive shells demolish targets in a wide blast radius, but Bastion can only remain in this mode for a limited time.

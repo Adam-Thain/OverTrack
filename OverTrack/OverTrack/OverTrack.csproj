@@ -826,5 +826,6 @@
 
   <ItemGroup>
     <Folder Include="Resources\Images\Busts\" />
+    <Folder Include="Resources\Images\Maps\" />
   </ItemGroup>
 </Project>

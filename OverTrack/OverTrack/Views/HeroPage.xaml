@@ -60,17 +60,19 @@
                 <StackLayout BindableLayout.ItemsSource="{Binding Abilities}" Orientation="Vertical">
                     <BindableLayout.ItemTemplate>
                         <DataTemplate>
-                            <Frame Padding="10" CornerRadius="10" HeightRequest="100" BackgroundColor="#293C5D" HasShadow="False">
-                                <Grid>
+                            <Frame Padding="10" CornerRadius="10" BackgroundColor="#293C5D" HasShadow="False">
+                                <Grid HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" >
                                     <Grid.RowDefinitions>
                                         <RowDefinition Height="auto"/>
+                                        <RowDefinition Height="*"/>
                                     </Grid.RowDefinitions>
                                     <Grid.ColumnDefinitions>
                                         <ColumnDefinition Width="auto"/>
-                                        <ColumnDefinition Width="auto"/>
+                                        <ColumnDefinition Width="*"/>
                                     </Grid.ColumnDefinitions>
                                     <Image Grid.Column="0" Grid.Row="0" x:Name="AbilityImage" Source="{Binding Icon}" WidthRequest="60" HeightRequest="60"/>
-                                    <Label Grid.Column="1" Grid.Row="0" x:Name="AbilityName" Text="{Binding Name}" TextColor="White" FontSize="Medium" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+                                    <Label Grid.Column="1" Grid.Row="0" x:Name="AbilityName" Text="{Binding Name}" TextColor="White" FontSize="Medium" FontAttributes="Bold" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" />
+                                    <Label Grid.Column="0" Grid.Row="1" x:Name="Description" Text="{Binding Description}" TextColor="White" FontSize="Small" Grid.ColumnSpan="2"/>
                                 </Grid>
                             </Frame>
                         </DataTemplate>

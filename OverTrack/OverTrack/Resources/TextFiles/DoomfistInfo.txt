@@ -1,11 +1,11 @@
-Role,Damage
-Health,250
-Armor,0
-Shields,0
-Total,250
-HAND CANNON,HAND CANNON
-SEISMIC SLAM,SEISMIC SLAM
-RISING UPPERCUT,RISING UPPERCUT
-ROCKET PUNCH,ROCKET PUNCH
-THE BEST DEFENCE,THE BEST DEFENCE
-METEOR STRIKE,METEOR STRIKE
+Role|Damage
+Health|250
+Armor|0
+Shields|0
+Total|250
+HAND CANNON|HAND CANNON|Doomfist fires a short-range burst from the knuckles of his fist. Its ammunition is automatically regenerated over a short time.
+SEISMIC SLAM|SEISMIC SLAM|Doomfist leaps forward and smashes into the ground, knocking nearby enemies toward him.
+RISING UPPERCUT|RISING UPPERCUT|Doomfist uppercuts enemies in front of him into the air.
+ROCKET PUNCH|ROCKET PUNCH|After charging up, Doomfist lunges forward and knocks an enemy back, dealing additional damage if they impact a wall.
+THE BEST DEFENCE|THE BEST DEFENCE|Doomfist generates temporary personal shields when he deals ability damage.
+METEOR STRIKE|METEOR STRIKE|Doomfist leaps into the sky, then crashes to the ground, dealing significant damage.

@@ -1,10 +1,10 @@
-Role,Damage
-Health,200
-Armor,0
-Shields,0
-Total,200
-THE VIPER,THE VIPER
-THE VIPER,THE VIPER
-DYNAMITE,DYNAMITE
-COACH GUN,COACH GUN
-B.O.B,B.O.B
+Role|Damage
+Health|200
+Armor|0
+Shields|0
+Total|200
+THE VIPER|THE VIPER|Ashe's semi-automatic rifle fires quick shots.
+THE VIPER|THE VIPER|Ashe can use her aim-down sights for a more damaging, precise shot.
+DYNAMITE|DYNAMITE|Ashe throws an explosive that detonates after a short delay or immediately when shot. The explosion from Dynamite also lights enemies on fire, dealing damage over time.
+COACH GUN|COACH GUN|Ashe blasts enemies in front of her, knocking them away and propelling herself backward for added mobility.
+B.O.B|B.O.B|Ashe summons her trusted omnic sidekick, B.O.B., who charges forward and knocks enemies into the air, then lays down suppressing fire with his arm cannons.

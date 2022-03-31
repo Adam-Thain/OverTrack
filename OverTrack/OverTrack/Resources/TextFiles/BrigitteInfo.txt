@@ -1,12 +1,12 @@
-Role,Support
-Health,150
-Armor,50
-Shields,0
-Total,200
-ROCKET FLAIL,ROCKET FLAIL
-REPAIR PACK,REPAIR PACK
-WHIP SHOT,WHIP SHOT
-BARRIER SHIELD,BARRIER SHIELD
-SHIELD BASH,SHIELD BASH
-INSPIRE,INSPIRE
-RALLY,RALLY
+Role|Support
+Health|150
+Armor|50
+Shields|0
+Total|200
+ROCKET FLAIL|ROCKET FLAIL|Brigitte's melee weapon has an extended range, enabling her to strike multiple enemies with a single swing.
+REPAIR PACK|REPAIR PACK|Heals an ally for a short duration.
+WHIP SHOT|WHIP SHOT|Brigitte throws her flail a long distance, dealing damage and knocking an enemy away from her.
+BARRIER SHIELD|BARRIER SHIELD|Brigitte deploys a frontal energy barrier to absorb a limited amount of damage.
+SHIELD BASH|SHIELD BASH|Once her Barrier Shield is deployed, Brigitte can dash forward to stun an enemy.
+INSPIRE|INSPIRE|When Brigitte strikes an enemy with her flail, all allies within range are healed over time.
+RALLY|RALLY|Brigitte moves faster and provides all nearby allies with armor that lasts until it's removed by damage.
