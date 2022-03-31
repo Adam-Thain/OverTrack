@@ -1,10 +1,10 @@
-Role,Damage
-Health,200
-Armor,0
-Shields,0
-Total,200
-FRAG LAUNCHER,FRAG LAUNCHER
-CONCUSSION MINE,CONCUSSION MINE
-STEEL TRAP,STEEL TRAP
-TOTAL MAYHEM,TOTAL MAYHEM
-RIP-TIRE,RIP-TIRE
+Role|Damage
+Health|200
+Armor|0
+Shields|0
+Total|200
+FRAG LAUNCHER|FRAG LAUNCHER|Junkrat's Frag Launcher lobs grenades a significant distance. They bounce to reach their destination, and blow up when they strike an enemy.
+CONCUSSION MINE|CONCUSSION MINE|After placing one of his homemade Concussion Mines, Junkrat can trigger it to damage enemies and send them flying... or propel himself through the air.
+STEEL TRAP|STEEL TRAP|Junkrat tosses out a giant, metal-toothed trap. Should an enemy wander too close to the trap, it clamps on, injuring and immobilizing them.
+TOTAL MAYHEM|TOTAL MAYHEM|Junkrat's deranged sense of humor persists past his death. If killed, he drops several live grenades.
+RIP-TIRE|RIP-TIRE|Junkrat revs up a motorized tire bomb and sends it rolling across the battlefield, climbing over walls and obstacles. He can remotely detonate the RIP-Tire to deal serious damage to enemies caught in the blast, or just wait for it to explode on its own.

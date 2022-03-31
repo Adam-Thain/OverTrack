@@ -1,10 +1,10 @@
-Role,Tank
-Health,600
-Armor,0
-Shields,0
-Total,600
-SCRAP GUN (SHRAPNEL BLAST),SCRAP GUN
-SCRAP GUN (SHRAPNEL BALL),SCRAP GUN
-TAKE A BREATHER,TAKE A BREATHER
-CHAIN HOOK,CHAIN HOOK
-WHOLE HOG,WHOLE HOG
+Role|Tank
+Health|600
+Armor|0
+Shields|0
+Total|600
+SCRAP GUN (SHRAPNEL BLAST)|SCRAP GUN|Roadhog's Scrap Gun fires short-range blasts of shrapnel with a wide spread.
+SCRAP GUN (SHRAPNEL BALL)|SCRAP GUN|Alternatively, it can launch a shrapnel ball that detonates farther away, scattering metal fragments from the point of impact.
+TAKE A BREATHER|TAKE A BREATHER|Roadhog restores a chunk of his health over a brief period of time.
+CHAIN HOOK|CHAIN HOOK|Roadhog hurls his chain at a target; if it catches, he yanks them into close range.
+WHOLE HOG|WHOLE HOG|After cramming a top-loader onto his Scrap Gun, Roadhog pours in ammo. For a short time, he can crank out a stream of shrapnel that knocks back enemies.

@@ -1,10 +1,10 @@
-Role,Tank
-Health,200
-Armor,250
-Shields,0
-Total,450
-FUSION DRIVER,FUSION DRIVER
-FORTIFY,FORTIFY
-HALT,HALT
-PROTECTIVE BARRIER,PROTECTIVE BARRIER
-SUPERCHARGER,SUPERCHARGER
+Role|Tank
+Health|200
+Armor|250
+Shields|0
+Total|450
+FUSION DRIVER|FUSION DRIVER|Orisa's automatic projectile cannon delivers sustained damage, but slows her movement while she fires it.
+FORTIFY|FORTIFY|Orisa temporarily reduces damage she takes and cannot be affected by movement-impairing effects.
+HALT|HALT|Launch a graviton charge which can be detonated with the same action. The sphere slows and pulls nearby enemies to it.
+PROTECTIVE BARRIER|PROTECTIVE BARRIER|Orisa throws out a stationary barrier that can protect her and her allies from enemy fire.
+SUPERCHARGER|SUPERCHARGER|Orisa deploys a device to increase damage inflicted by allies within her line of sight.

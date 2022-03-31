@@ -1,10 +1,11 @@
-Role,Damage
-Health,200
-Armor,0
-Shields,0
-Total,200
-SHURIKEN,SHURIKEN
-DEFLECT,DEFLECT
-SWIFT STRIKE,SWIFT STRIKE
-CYBER-AGILITY,CYBER-AGILITY
-DRAGONBLADE,DRAGONBLADE
+Role|Damage
+Health|200
+Armor|0
+Shields|0
+Total|200
+SHURIKEN|SHURIKEN|Genji looses three deadly throwing stars in quick succession.
+SHURIKEN|SHURIKEN|Alternatively, he can throw three shuriken in a wider spread.
+DEFLECT|DEFLECT|With lightning-quick swipes of his wakizashi, Genji reflects an oncoming projectile and sends it rebounding towards his opponent.
+SWIFT STRIKE|SWIFT STRIKE|Genji darts forward, slashing with his wakizashi and passing through foes in his path. If Genji eliminates a target, he can instantly use this ability again.
+CYBER-AGILITY|CYBER-AGILITY|Climb on walls and double jump.
+DRAGONBLADE|DRAGONBLADE|Genji brandishes his katana for a brief period of time. Until he sheathes his katana, Genji can deliver killing strikes to any targets within his reach.

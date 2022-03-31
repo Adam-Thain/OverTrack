@@ -1,10 +1,10 @@
-Role,Damage
-Health,175
-Armor,0
-Shields,0
-Total,175
-WIDOW'S KISS (AUTOMATIC),WIDOW'S KISS
-WIDOW'S KISS (SCOPED),WIDOW'S KISS
-GRAPPLING HOOK,GRAPPLING HOOK
-VENOM MINE,VENOM MINE
-INFRA-SIGHT,INFRA-SIGHT
+Role|Damage
+Health|175
+Armor|0
+Shields|0
+Total|175
+WIDOW'S KISS (AUTOMATIC)|WIDOW'S KISS|Widowmaker's versatile sniper rifle is ideal for scope-aimed shots at distant targets.
+WIDOW'S KISS (SCOPED)|WIDOW'S KISS|Should targets close to medium range, the rifle can also be fired in fully-automatic mode.
+GRAPPLING HOOK|GRAPPLING HOOK|Widowmaker launches a grappling hook towards the location she’s aiming at – when the hook connects with a scalable surface, she’s quickly drawn towards it, allowing her to expand her view of the battlefield and evade or flank targets.
+VENOM MINE|VENOM MINE|Widowmaker adheres a swiftly-arming venom mine to nearly any surface. When a target wanders within range of the mine’s motion trigger, it explodes, delivering poison gas to any enemies in the vicinity.
+INFRA-SIGHT|INFRA-SIGHT|Widowmaker's recon visor allows her to see the heat signatures of her targets through walls and objects for a moderate amount of time. This enhanced vision is shared with her allies.

@@ -1,11 +1,11 @@
-Role,Tank
-Health,300
-Armor,200
-Shields,0
-Total,500
-ROCKET HAMMER,ROCKET HAMMER
-BARRIER FIELD,BARRIER FIELD
-CHARGE,CHARGE
-FIRE STRIKE,FIRE STRIKE
-STEADFAST,STEADFAST
-EARTHSHATTER,EARTHSHATTER
+Role|Tank
+Health|300
+Armor|200
+Shields|0
+Total|500
+ROCKET HAMMER|ROCKET HAMMER|Reinhardt's Rocket Hammer is an exemplary melee weapon, able to deal punishing damage in a wide arc with every swing.
+BARRIER FIELD|BARRIER FIELD|Reinhardt projects a broad, forward-facing energy shield, which can absorb substantial damage before it is destroyed. Though Reinhardt can protect himself and his companions behind the shield, he cannot attack while sustaining it.
+CHARGE|CHARGE|Reinhardt charges forth in a straight line, grabbing hold of enemies in his path. If he collides with a wall, foes he’s carrying suffer extreme damage.
+FIRE STRIKE|FIRE STRIKE|By whipping his Rocket Hammer forward, Reinhardt slings a flaming projectile which pierces and damages any enemies it touches.
+STEADFAST|STEADFAST|Resistant to knock back effects.
+EARTHSHATTER|EARTHSHATTER|Reinhardt forcefully slams his rocket hammer into the ground, knocking down and damaging all enemies in front of him.

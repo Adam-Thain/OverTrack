@@ -1,11 +1,11 @@
-Role,Damage
-Health,200
-Armor,50
-Shields,0
-Total,250
-RIVET GUN (RIVET SHOT),RIVET GUN
-RIVET GUN (RIVET BURST),RIVET GUN
-FORGE HAMMER,FORGE HAMMER
-DEPLOY TURRET,DEPLOY TURRET
-OVERLOAD,OVERLOAD
-MOLTEN CORE,MOLTEN CORE
+Role|Damage
+Health|200
+Armor|50
+Shields|0
+Total|250
+RIVET GUN (RIVET SHOT)|RIVET GUN|Torbjorn fires rivets at long range.
+RIVET GUN (RIVET BURST)|RIVET GUN|Torbjorn ejects molten metal from his gun in a short, close-range burst.
+FORGE HAMMER|FORGE HAMMER|This multipurpose hammer repairs turrets and, in a pinch, can also be used as a weapon.
+DEPLOY TURRET|DEPLOY TURRET|Torbjorn deploys a self-building turret which automatically tracks and attacks enemies.
+OVERLOAD|OVERLOAD|Torbjorn gains additional armor as well as improved attack, movement, and reload speed for a brief period.
+MOLTEN CORE|MOLTEN CORE|Torbjorn creates pools of molten slag that deal massive, sustained damage (plus bonus damage to armor), and can prevent enemies from moving through key locations.

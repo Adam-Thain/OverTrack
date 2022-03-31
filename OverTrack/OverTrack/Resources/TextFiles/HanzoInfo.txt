@@ -1,11 +1,11 @@
-Role,Damage
-Health,200
-Armor,0
-Shields,0
-Total,200
-STORM BOW,STORM BOW
-SONIC ARROW,SONIC ARROW
-STORM ARROWS,STORM ARROWS
-LUNGE,LUNGE
-WALL CLIMB,WALL CLIMB
-DRAGONSTRIKE,DRAGONSTRIKE
+Role|Damage
+Health|200
+Armor|0
+Shields|0
+Total|200
+STORM BOW|STORM BOW|Hanzo nocks and fires an arrow at his target.
+SONIC ARROW|SONIC ARROW|Hanzo launches an arrow that contains a sonar tracking device. Any enemy within its detection radius is visibly marked, making them easier for Hanzo and his allies to hunt down.
+STORM ARROWS|STORM ARROWS|Hanzo’s next several arrows fire instantly, but at reduced damage.
+LUNGE|LUNGE|Hanzo can double jump, allowing him to change direction mid-jump.
+WALL CLIMB|WALL CLIMB|Jump at walls to climb up them.
+DRAGONSTRIKE|DRAGONSTRIKE|Hanzo summons a Spirit Dragon which travels through the air in a line. It passes through walls in its way, devouring any enemies it encounters.

@@ -1,10 +1,10 @@
-Role,Damage
-Health,250
-Armor,0
-Shields,0
-Total,250
-HELLFIRE SHOTGUNS,HELLFIRE SHOTGUNS
-WRAITH FORM,WRAITH FORM
-SHADOW STEP,SHADOW STEP
-THE REAPING,THE REAPING
-DEATH BLOSSOM,DEATH BLOSSOM
+Role|Damage
+Health|250
+Armor|0
+Shields|0
+Total|250
+HELLFIRE SHOTGUNS|HELLFIRE SHOTGUNS|Reaper tears enemies apart with twin shotguns.
+WRAITH FORM|WRAITH FORM|Reaper becomes a shadow for a short period of time. While in this form, he takes no damage and is able to pass through enemies, but cannot fire his weapons or use other abilities.
+SHADOW STEP|SHADOW STEP|After marking a destination, Reaper disappears and reappears at that location.
+THE REAPING|THE REAPING|Reaper steals health from his enemies as he damages them.
+DEATH BLOSSOM|DEATH BLOSSOM|In a blur of motion, Reaper empties both Hellfire Shotguns at breakneck speed, dealing massive damage to all nearby enemies.

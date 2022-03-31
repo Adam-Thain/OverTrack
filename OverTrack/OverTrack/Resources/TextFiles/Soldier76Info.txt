@@ -1,10 +1,10 @@
-Role,Damage
-Health,200
-Armor,0
-Shields,0
-Total,200
-HEAVY PULSE RIFLE,HEAVY PULSE RIFLE
-HELIX ROCKETS,HELIX ROCKETS
-SPRINT,SPRINT
-BIOTIC FIELD,BIOTIC FIELD
-TACTICAL VISOR,TACTICAL VISOR
+Role|Damage
+Health|200
+Armor|0
+Shields|0
+Total|200
+HEAVY PULSE RIFLE|HEAVY PULSE RIFLE|Soldier: 76's rifle remains particularly steady while unloading fully-automatic pulse fire.
+HELIX ROCKETS|HELIX ROCKETS|Tiny rockets spiral out of Soldier: 76's Pulse Rifle in a single burst. The rockets' explosion damages enemies in a small radius.
+SPRINT|SPRINT|Whether he needs to evade a firefight or get back into one, Soldier: 76 can rush ahead in a burst of speed. His sprint ends if he takes an action other than charging forward.
+BIOTIC FIELD|BIOTIC FIELD|Soldier: 76 plants a biotic emitter on the ground. Its energy projection restores health to 76 and any of his squadmates within the field.
+TACTICAL VISOR|TACTICAL VISOR|Soldier: 76's pinpoint targeting visor “locks” his aim on the threat closest to his crosshairs. If an enemy leaves his line of sight, Soldier: 76 can quickly switch to another target.

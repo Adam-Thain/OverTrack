@@ -1,11 +1,11 @@
-Role,Tank
-Health,200
-Armor,0
-Shields,100
-Total,400
-PARTICLE CANNON (ENERGY BEAM),PARTICLE CANNON
-PARTICLE CANNON (EXPLOSIVE CHARGE),PARTICLE CANNON
-PARTICLE BARRIER,PARTICLE BARRIER
-PROJECTED BARRIER,PROJECTED BARRIER
-ENERGY,ENERGY
-GRAVITON SURGE,GRAVITON SURGE
+Role|Tank
+Health|200
+Armor|0
+Shields|100
+Total|400
+PARTICLE CANNON (ENERGY BEAM)|PARTICLE CANNON|Zarya's mighty Particle Cannon unleashes a short-range beam of destructive energy.
+PARTICLE CANNON (EXPLOSIVE CHARGE)|PARTICLE CANNON|Alternatively, Zarya can lob an explosive charge to strike multiple opponents.
+PARTICLE BARRIER|PARTICLE BARRIER|The Particle Cannon can emit a personal barrier that shields Zarya against incoming attacks, redirecting their energy to enhance her weapon’s damage and the width of its beam.
+PROJECTED BARRIER|PROJECTED BARRIER|Zarya surrounds one of her teammates with an energy barrier that simultaneously absorbs fire and boosts the power of her Particle Cannon.
+ENERGY|ENERGY|Damage blocked increases Ability-zarya1.png Particle Cannon damage.
+GRAVITON SURGE|GRAVITON SURGE|Zarya launches a gravity bomb that draws in enemy combatants and deals damage while they’re trapped.

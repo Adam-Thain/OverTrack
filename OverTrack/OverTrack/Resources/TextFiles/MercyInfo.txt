@@ -1,12 +1,12 @@
-Role,Support
-Health,200
-Armor,0
-Shields,0
-Total,200
-CADUCEUS STAFF,CADUCEUS STAFF
-CADUCEUS BLASTER,CADUCEUS BLASTER
-GUARDIAN ANGEL,GUARDIAN ANGEL
-RESURRECT,RESURRECT
-ANGELIC DESCENT,ANGELIC DESCENT
-REGENERATION,REGENERATION
-VALKYRIE,VALKYRIE
+Role|Support
+Health|200
+Armor|0
+Shields|0
+Total|200
+CADUCEUS STAFF|CADUCEUS STAFF|Mercy engages one of two beams that connect to an ally. By maintaining the beams, she can either restore that ally's health or increase the amount of damage they deal.
+CADUCEUS BLASTER|CADUCEUS BLASTER|Mercy shoots a round from her sidearm. It's best reserved for emergency personal defense.
+GUARDIAN ANGEL|GUARDIAN ANGEL|Mercy flies towards a targeted ally, allowing her to reach them quickly and provide assistance in crucial moments.
+RESURRECT|RESURRECT|Mercy brings a dead ally back into the fight with full health.
+ANGELIC DESCENT|ANGELIC DESCENT|Propelled by her Valkyrie suit, Mercy slows the speed of her descent from great heights.
+REGENERATION|REGENERATION|Mercy automatically heals over time. 
+VALKYRIE|VALKYRIE|Gain the ability to fly. Mercy's abilities are enhanced.

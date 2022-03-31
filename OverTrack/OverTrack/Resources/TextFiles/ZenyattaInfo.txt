@@ -1,10 +1,10 @@
-Role,Support
-Health,50
-Armor,0
-Shields,150
-Total,200
-ORB OF DESTRUCTION (SINGULAR ORB),ORB OF DESTRUCTION
-ORB OF DESTRUCTION (ORB VOLLEY),ORB OF DESTRUCTION
-ORB OF HARMONY,ORB OF HARMONY
-ORB OF DISCORD,ORB OF DISCORD
-TRANSCENDENCE,TRANSCENDENCE
+Role|Support
+Health|50
+Armor|0
+Shields|150
+Total|200
+ORB OF DESTRUCTION (SINGULAR ORB)|ORB OF DESTRUCTION|Zenyatta projects his destructive energy orbs individually.
+ORB OF DESTRUCTION (ORB VOLLEY)|ORB OF DESTRUCTION|Zenyatta projects his destructive energy orbs in a rapid-fire volley after a few seconds spent gathering power.
+ORB OF HARMONY|ORB OF HARMONY|Zenyatta casts an orb over the shoulder of a targeted ally. So long as Zenyatta maintains line of sight, the orb slowly restores health to his ally. Only one ally can receive the orb's benefit at a time.
+ORB OF DISCORD|ORB OF DISCORD|Attaching the orb of discord to an opponent amplifies the amount of damage they receive for as long as Zenyatta maintains line of sight. Only one opponent can suffer the orb's effects at a time.
+TRANSCENDENCE|TRANSCENDENCE|Zenyatta enters a state of heightened existence for a short period of time. While transcendent, Zenyatta cannot use abilities or weapons, but is immune to damage and automatically restores his health and that of nearby allies.

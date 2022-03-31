@@ -1,11 +1,11 @@
-Role,Support
-Health,200
-Armor,0
-Shields,0
-Total,200
-SONIC AMPLIFIER,SONIC AMPLIFIER
-SOUNDWAVE,SOUNDWAVE
-CROSSFADE,CROSSFADE
-AMP IT UP,AMP IT UP
-WALL RIDE,WALL RIDE
-SOUND BARRIER,SOUND BARRIER
+Role|Support
+Health|200
+Armor|0
+Shields|0
+Total|200
+SONIC AMPLIFIER|SONIC AMPLIFIER|Lucio can hit his enemies with sonic projectiles.
+SOUNDWAVE|SOUNDWAVE|Lucio can knock his enemies back with a blast of sound.
+CROSSFADE|CROSSFADE|Lucio continuously energizes himself and nearby teammates with music. He can switch between two songs: one amplifies movement speed, while the other regenerates health.
+AMP IT UP|AMP IT UP|Lucio increases the volume on his speakers, boosting the effects of his songs.
+WALL RIDE|WALL RIDE|Jump onto a wall to ride along it.
+SOUND BARRIER|SOUND BARRIER|Protective waves radiate out from Lucio's Sonic Amplifier, briefly providing him and nearby allies with personal shields.

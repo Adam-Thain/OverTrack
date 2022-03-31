@@ -1,11 +1,11 @@
-Role,Damage
-Health,200
-Armor,0
-Shields,
-Total,200
-MACHINE PISTOL,MACHINE PISTOL
-HACK,HACK
-STEALTH,STEALTH
-TRANSLOCATOR,TRANSLOCATOR
-OPPORTUNIST,OPPORTUNIST
-EMP,EMP
+Role|Damage
+Health|200
+Armor|0
+Shields|0
+Total|200
+MACHINE PISTOL|MACHINE PISTOL|Sombra's fully-automatic machine pistol fires in a short-range spread.
+HACK|HACK|Sombra hacks enemies to temporarily stop them from using their abilities, or hacks first aid kits to make them useless to her opponents.
+STEALTH|STEALTH|Sombra becomes invisible for a short period of time, during which her speed is boosted considerably. Attacking, using offensive abilities, or taking damage disables her camouflage.
+TRANSLOCATOR|TRANSLOCATOR|Sombra tosses out a translocator beacon. She can instantly return to the beacon's location while it is active (including when it's in mid-flight).
+OPPORTUNIST|OPPORTUNIST|Sombra detects critically injured enemies through walls.
+EMP|EMP|Sombra discharges electromagnetic energy in a wide radius, destroying enemy barriers and shields and hacking all opponents caught in the blast.

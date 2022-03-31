@@ -1,10 +1,10 @@
-Role,Damage
-Health,200
-Armor,0
-Shields,0
-Total,200
-ROCKET LAUNCHER,ROCKET LAUNCHER
-JUMP JET,JUMP JET
-CONCUSSIVE BLAST,CONCUSSIVE BLAST
-HOVER JETS,HOVER JETS
-BARRAGE,BARRAGE
+Role|Damage
+Health|200
+Armor|0
+Shields|0
+Total|200
+ROCKET LAUNCHER|ROCKET LAUNCHER|Pharah's primary weapon launches rockets that deal significant damage in a wide blast radius.
+JUMP JET|JUMP JET|Propelled by her suit's thrusters, Pharah soars high into the air.
+CONCUSSIVE BLAST|CONCUSSIVE BLAST|Pharah looses a wrist rocket that knocks back any enemies it strikes.
+HOVER JETS|HOVER JETS|Hold to hover.
+BARRAGE|BARRAGE|Pharah directs a continuous salvo of mini-rockets to destroy groups of enemies.

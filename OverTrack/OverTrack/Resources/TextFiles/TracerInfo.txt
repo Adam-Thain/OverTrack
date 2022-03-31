@@ -1,9 +1,9 @@
-Role,Damage
-Health,150
-Armor,0
-Shields,0
-Total,150
-PULSE PISTOLS,PULSE PISTOLS
-BLINK,BLINK
-RECALL,RECALL
-PULSE BOMB,PULSE BOMB
+Role|Damage
+Health|150
+Armor|0
+Shields|0
+Total|150
+PULSE PISTOLS|PULSE PISTOLS|Tracer rapid-fires both of her pistols.
+BLINK|BLINK|Tracer zips horizontally through space in the direction she's moving, and reappears several yards away. She stores up to three charges of the blink ability and generates more every few seconds.
+RECALL|RECALL|Tracer bounds backward in time, returning her health, ammo and position on the map to precisely where they were a few seconds before.
+PULSE BOMB|PULSE BOMB|Tracer lobs a large bomb that adheres to any surface or unfortunate opponent it lands on. After a brief delay, the bomb explodes, dealing high damage to all enemies within its blast radius.

@@ -1,10 +1,10 @@
-Role,Support
-Health,200
-Armor,0
-Shields,0
-Total,200
-BIOTIC GRASP (REGENERATION),BIOTIC GRASP
-BIOTIC GRASP (DECAY),BIOTIC GRASP
-BIOTIC ORB,BIOTIC ORB
-FADE,FADE
-COALESCENCE,COALESCENCE
+Role|Support
+Health|200
+Armor|0
+Shields|0
+Total|200
+BIOTIC GRASP (REGENERATION)|BIOTIC GRASP|Using her left hand, Moira expends biotic energy to heal allies in front of her.
+BIOTIC GRASP (DECAY)|BIOTIC GRASP|Her right hand fires a long-range beam weapon that saps enemies' health, healing Moira and replenishing her biotic energy.
+BIOTIC ORB|BIOTIC ORB|Moira launches a rebounding biotic sphere; she can choose between a regeneration effect that heals the allies it passes through, or a decay effect that deals damage to enemies.
+FADE|FADE|Moira's movement speed increases while making her invulnerable to damage.
+COALESCENCE|COALESCENCE|Moira channels a long-range beam that heals allies, damages enemies, and bypasses barriers.

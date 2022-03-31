@@ -1,11 +1,11 @@
-Role,Tank
-Health,500
-Armor,100
-Shields,0
-Total,600
-QUAD CANNONS,QUAD CANNONS
-ROLL,ROLL
-GRAPPLING CLAW,GRAPPLING CLAW
-ADAPTIVE SHIELD,ADAPTIVE SHIELD
-PILEDRIVER,PILEDRIVER
-MINEFIELD,MINEFIELD
+Role|Tank
+Health|500
+Armor|100
+Shields|0
+Total|600
+QUAD CANNONS|QUAD CANNONS|Wrecking Ball's automatic assault cannons tear apart threats at medium range.
+ROLL|ROLL|Wrecking Ball transforms into a ball, increasing his maximum movement speed.
+GRAPPLING CLAW|GRAPPLING CLAW|Wrecking Ball launches a grappling claw, enabling him to anchor to an area and swing from it. If he strikes an enemy with a powered-up swing, they’re damaged and knocked back.
+ADAPTIVE SHIELD|ADAPTIVE SHIELD|Wrecking Ball's temporary personal shields absorb damage, providing stronger defenses if more opponents are nearby.
+PILEDRIVER|PILEDRIVER|Wrecking Ball slams onto the ground below, damaging enemies and launching them upward.
+MINEFIELD|MINEFIELD|Wrecking Ball deploys a field of long-lasting proximity mines which explode on contact with enemies.

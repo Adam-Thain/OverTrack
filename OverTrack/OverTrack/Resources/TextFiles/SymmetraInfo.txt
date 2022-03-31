@@ -1,10 +1,10 @@
-Role,Damage
-Health,100
-Armor,0
-Shields,125
-Total,225
-PHOTON PROJECTOR (PHOTON BEAM),PHOTON PROJECTOR
-PHOTON PROJECTOR (ENERGY BALL),PHOTON PROJECTOR
-SENTRY TURRET,SENTRY TURRET
-TELEPORTER,TELEPORTER
-PHOTON BARRIER,PHOTON BARRIER
+Role|Damage
+Health|100
+Armor|0
+Shields|125
+Total|225
+PHOTON PROJECTOR (PHOTON BEAM)|PHOTON PROJECTOR|Symmetra's weapon emits a ranged beam. It deals continuous damage that increases the longer it is connected.
+PHOTON PROJECTOR (ENERGY BALL)|PHOTON PROJECTOR|The projector can also release an explosive energy ball that deals high damage on contact.
+SENTRY TURRET|SENTRY TURRET|Symmetra launches a small turret that automatically fires speed-reducing blasts at the nearest enemy within range. Up to three turrets can be built on the battlefield at once.
+TELEPORTER|TELEPORTER|Symmetra places a temporary teleporter exit pad at a distance and connects it to a teleporter entry pad at her current location. Allies (and some of their abilities, such as Junkrat’s RIP-Tire) can travel from the entry pad to the exit pad instantly.
+PHOTON BARRIER|PHOTON BARRIER|Symmetra deploys a massive energy barrier which prevents ranged attacks and is big enough to cut through the entire map.
