@@ -6,4 +6,4 @@ Total|500
 TESLA CANNON|TESLA CANNON|Winston's weapon fires a short-range electric barrage for as long as he holds down the trigger.
 JUMP PACK|JUMP PACK|Assisted by his energy pack, Winston lunges through the air, dealing significant damage and staggering nearby enemies when he lands.
 BARRIER PROJECTOR|BARRIER PROJECTOR|Winston's barrier projector extends a bubble-shaped field that absorbs damage until it's destroyed. Allies protected by the barrier can return fire from within it.
-PRIMAL RAGE|PRIMAL RAGE|Winston embraces his animal nature, significantly boosting his health and making him very difficult to kill, strengthening his melee attack, and allowing him to use his Ability-winston2.png Jump Pack ability more frequently. While raging, Winston can only make melee and Jump Pack attacks.
+PRIMAL RAGE|PRIMAL RAGE|Winston embraces his animal nature, significantly boosting his health and making him very difficult to kill, strengthening his melee attack, and allowing him to use his Jump Pack ability more frequently. While raging, Winston can only make melee and Jump Pack attacks.
